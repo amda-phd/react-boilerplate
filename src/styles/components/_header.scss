@@ -1,0 +1,30 @@
+.header {
+  background: $light;
+  color: $dark;
+  margin-bottom: $l-size;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.header__title {
+  font-size: $xl-size;
+  font-weight: 600;
+  // margin-bottom: $m-size;
+  // margin-left: $s-size;
+  margin: 0;
+  padding: $m-size;
+  background-color: $dark;
+  color: $light;
+  border-bottom: 7px solid $third;
+}
+
+.header__menu {
+  background: $second;
+  font-size: $m-size;
+  margin: 0;
+  padding: 0.5rem;
+  padding-top: $s-size;
+}
+
+.header__link {
+  padding: 0 $m-size;
+}

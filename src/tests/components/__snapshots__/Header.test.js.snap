@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render Header correctly 1`] = `
+<header
+  className="header"
+>
+  <h1
+    className="header__title"
+  >
+    Boilerplate
+  </h1>
+  <nav
+    className="header__menu"
+  >
+    <NavLink
+      activeClassName="is-active"
+      className="header__link"
+      exact={true}
+      to="/"
+    >
+      Dashboard
+    </NavLink>
+    <NavLink
+      activeClassName="is-active"
+      className="header__link"
+      to="/help"
+    >
+      Help
+    </NavLink>
+  </nav>
+</header>
+`;
