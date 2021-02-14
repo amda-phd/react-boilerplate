@@ -5,6 +5,16 @@
   "main": "index.js",
   "author": "amda",
   "license": "MIT",
+  "keywords": [
+    "react",
+    "js",
+    "jsx",
+    "javascript",
+    "webpack",
+    "boilerplate",
+    "jest"
+  ],
+  "repository": "github:amda-phd/react-boilerplate",
   "scripts": {
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
