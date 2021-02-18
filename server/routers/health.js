@@ -7,7 +7,7 @@ router.get("/health", (req, res) => {
 });
 
 router.get("/ping", (req, res) => {
-  return res.send({ message: "pong" });
+  return res.send({ ping: "pong" });
 });
 
 module.exports = router;
